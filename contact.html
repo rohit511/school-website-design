@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="picks/logo.png" type="image/x-icon" />
+</head>
+
+<body>
+    <section class="subheader I">
+        <!-- navbar -->
+        <nav>
+            <a href="index.html"><img src="picks/logo.png" /></a>
+            <div class="nav-link" id="nav-link">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="Aboutus.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <!-- about contact us -->
+
+    <section class="location ">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27859.05190875444!2d78.93937035776565!3d29.21233141231756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a43c0c5694dd1%3A0xe193d5f15c9333a0!2sKashipur%2C%20Uttarakhand%20244713!5e0!3m2!1sen!2sin!4v1676143393533!5m2!1sen!2sin"
+            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-co">
+                <div>
+                    <i class="fa fa-home"></i>
+                    
+                    <span>
+                        <h5>XYZ road,Abc building</h5>
+                        <p>Kashipur ,uttarakhand</p>
+                    </span>
+                    
+                    
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>0987654321</h5>
+                        <p>Monday to Saturday till 9</p>
+                    </span>
+                </div>
+                <div><i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>XYZ@gmail.com</h5>
+                        <p>Email for query</p>
+                    </span>
+                    
+                </div>
+            </div>
+
+
+         <div class="contact-co">
+
+
+         
+         <form action="">
+<input type="text" placeholder="name" required>
+<input type="email" placeholder=" email" required>
+<input type="text" placeholder="subject" required>
+<textarea row="8" placeholder="Enter message" required></textarea>
+<button type="submit" class="hero-btn redt yts">Submit</button>
+
+
+
+
+
+         </form>
+        </div>
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus,
+            natus?<br />
+            Lorem ipsum dolor sit amet.
+        </p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by Rohit</p>
+    </section>
+    <script>
+        var navLinks = document.getElementById("nav-link");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
